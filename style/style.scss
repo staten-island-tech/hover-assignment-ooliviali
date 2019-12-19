@@ -1,7 +1,7 @@
 html {
     padding: 0;
     margin: 0;
-    font-size: 62.5;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 body {
@@ -12,4 +12,9 @@ body {
 .gallery-parent {
     text-align: center;
     margin: 0 auto;
+    width: 60rem;
+    height: 60rem;
+}
+.gallery {
+    position: relative;
 }
