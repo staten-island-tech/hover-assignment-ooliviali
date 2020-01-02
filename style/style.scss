@@ -18,4 +18,23 @@ body {
 .gallery {
     position: relative;
 }
+.banana {
+    height: 20rem;
+    position: absolute;
+    transition: all 0.3s;
+    outline-offset: 1rem;
+}
+
+.pumpkin {
+    top: 20rem;
+    right: -20rem;
+}
+
+
+.gallery:hover .banana:not(:hover) {
+    transform: scale(0,9);
+    opacity: 0.3;
+}
+
+
 
