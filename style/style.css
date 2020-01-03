@@ -24,6 +24,7 @@ body {
 .bee {
   top: 10rem;
   right: 10rem;
+  size: 50rem;
 }
 
 .bananas {
@@ -45,12 +46,10 @@ body {
   transition: transform .25s, visibility .25s ease-in;
   transition: transform .25s, visibility .25s ease-in, -webkit-transform .25s;
   width: 40rem;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .hover-zoom:hover img {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */
