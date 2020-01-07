@@ -11,11 +11,12 @@ body {
 
 .gallery-parent {
     position: relative;
-    margin: 0rem
+    margin: 0rem;
 }
 .gallery {
     position: relative;
     margin: 0rem;
+
 }
 
 .bee {
@@ -34,6 +35,8 @@ body {
     width: 55rem;
 }
 
+
+
 .hover-zoom img {
     transform-origin: 0 0;
     transition: transform .25s, visibility .25s ease-in;
@@ -47,5 +50,20 @@ body {
 
 
 
+.hover-gray figure img {
+    filter: grayscale();
+    transition: 0.5s ease-in-out;
+}
+.hover-gray figure:hover img {
+    filter: grayscale(0);
 
+}
 
+.hover-zoom-out figure img {
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+
+.hover-zoomout figure:hover img{
+    transform: scale(1);
+}
