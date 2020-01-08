@@ -12,30 +12,13 @@ body {
 .gallery-parent {
     position: relative;
     margin: 0rem;
+
 }
 .gallery {
     position: relative;
     margin: 0rem;
 
 }
-
-.bee {
-    top: 10rem;
-    right: 10rem;
-    size: 50rem;
-}
-
-.bananas {
-    top: 15rem;
-    left: 10rem;
-}
-.pumpkin {
-    top: 5rem;
-    left: 6rem;
-    width: 55rem;
-}
-
-
 
 .hover-zoom img {
     transform-origin: 0 0;
@@ -48,11 +31,10 @@ body {
     
 }
 
-
-
 .hover-gray figure img {
     filter: grayscale();
     transition: 0.5s ease-in-out;
+    width: 40rem;
 }
 .hover-gray figure:hover img {
     filter: grayscale(0);
@@ -60,10 +42,12 @@ body {
 }
 
 .hover-zoom-out figure img {
-    transform: scale(1);
-    transition: .5s ease-in-out;
+    filter: opacity();
+    transition: 2s ease-in-out;
+
 }
 
-.hover-zoomout figure:hover img{
-    transform: scale(1);
+.hover-zoomout figure:hover img {
+    filter: opacity(70%);
+
 }
