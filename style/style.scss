@@ -41,13 +41,14 @@ body {
 
 }
 
-.hover-zoom-out figure img {
+.hover-opacity figure img {
     filter: opacity();
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
+    width: 40rem;
 
 }
 
-.hover-zoomout figure:hover img {
+.hover-opacity figure:hover img {
     filter: opacity(70%);
 
 }
