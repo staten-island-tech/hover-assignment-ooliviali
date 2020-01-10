@@ -10,12 +10,12 @@ body {
 }
 
 .gallery-parent {
-    position: relative;
+    
     margin: 0rem;
 
 }
 .gallery {
-    position: relative;
+    
     margin: 0rem;
 
 }
@@ -55,7 +55,10 @@ body {
 
 .hover-gradient figure img {
     width: 40rem;
-    animation: pulse 1s infinite;
+}
+.hover-gradient figure:hover img {
+    width: 40rem;
+    animation: pulse 0.5s infinite;
     animation-direction: alternate-reverse;
 }
 
@@ -69,6 +72,16 @@ body {
     }
 }
 
+.hover-overlay figure img {
+
+    width: 40rem;
+    transition: 0.5s ease;
+    background-color: yellow;
+}
+
+.hover-overlay figure:hover img {
+   filter: sepia(100%);
+}
 
 
 
